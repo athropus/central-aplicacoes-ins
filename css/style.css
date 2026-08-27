@@ -311,3 +311,24 @@ body {
     padding: 4px 12px 12px 12px;
     font-weight: 600;
 }
+/* Estilo para seções de reprovação (Vermelho) */
+.script-section-reprovado {
+    background-color: rgba(220, 53, 69, 0.15); /* Fundo avermelhado suave */
+    border-left: 4px solid #dc3545; /* Detalhe em vermelho forte na lateral */
+    color: #ff6b6b;
+    padding: 10px 15px;
+    margin: 15px 0 10px 0;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Estilo para seções de aprovação (Verde) */
+.script-section-aprovado {
+    background-color: rgba(40, 167, 69, 0.15); /* Fundo esverdeado suave */
+    border-left: 4px solid #28a745; /* Detalhe em verde forte na lateral */
+    color: #51cf66;
+    padding: 10px 15px;
+    margin: 15px 0 10px 0;
+    font-weight: bold;
+    border-radius: 4px;
+}

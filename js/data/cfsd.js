@@ -43,7 +43,9 @@ window.dadosScriptCFSd = `
         <div class="resposta-text">R: Estando a um quadrado de distância de sua cadeira e falando: "Assumo, senhor/senhora".</div>
 
         <div class="script-section-title">3. Resultados do Teste</div>
+        <div class="script-section-reprovado">3. REPROVADO!</div>
         <div class="frase">Lamento, você está reprovado(a). Mas não desista, retorne ao batalhão e aliste-se novamente.</div>
+        <div class="script-section-aprovado">APROVADO!</div>
         <div class="frase">Parabéns, você foi aprovado(a) no teste teórico!</div>
         <div class="frase">Agora iremos entrar no próximo tópico da aula:</div>
 
