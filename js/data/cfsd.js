@@ -14,7 +14,7 @@ window.dadosScriptCFSd = `
 
     <!-- SCRIPT INTERATIVO -->
     <section>
-        <div class="script-section-title-copiavel frase">[INTRODUÇÃO]</div>
+        <div class="script-section-title-copiavel frase">   [INTRODUÇÃO]</div>
         
         <div class="frase">Olá, recruta. Eu sou o(a) instrutor(a) yycecedilha.</div>
         <div class="frase">Seja bem-vindo(a) à RCC! Permaneça em silêncio e preste atenção ao conteúdo repassado na instrução.</div>
@@ -30,7 +30,7 @@ window.dadosScriptCFSd = `
         <div class="script-section-title">Comando Inicial do Bot</div>
         <div class="frase comando-bot">AULAINS</div>
 
-        <div class="script-section-title">2. Teste Teórico</div>
+        <div class="script-section-title-copiavel frase">   [Teste Teórico]</div>
         <div class="frase">Agora, irei fazer algumas perguntas relacionadas à aula. Caso erre duas questões, será reprovado(a).</div>
         <div class="frase">Vocês conseguem sussurrar comigo?</div>
         <div class="frase">Todas as respostas deverão ser enviadas via sussurro, caso envie fora será considerado um erro.</div>
