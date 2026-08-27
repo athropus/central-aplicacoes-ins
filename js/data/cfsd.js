@@ -1,27 +1,66 @@
-// Estrutura de dados para o Curso de Formação de Soldados
-const scriptCFSd = {
-    titulo: "CURSO DE FORMAÇÃO DE SOLDADOS (CFSd)",
-    aviso: "ATENÇÃO! É terminantemente proibido pular qualquer parte do script. Qualquer transgressão referente à qualidade da aula ocasionará punições previstas no Código Penal dos Instrutores.",
-    passos: [
-        { tipo: "fala", texto: "Olá, recruta. Eu sou o(a) instrutor(a) {INSTRUTOR}." },
-        { tipo: "fala", texto: "Seja bem-vindo(a) à RCC! Permaneça em silêncio e preste atenção ao conteúdo repassado." },
-        { tipo: "fala", texto: "Peço que, caso surja alguma dúvida no decorrer da aula, acene para que eu possa saná-la." },
+window.dadosScriptCFSd = `
+    <!-- TITULO DO CURSO -->
+    <div class="title-banner">
+        CURSO DE FORMAÇÃO DE SOLDADOS
+    </div>
+
+    <!-- BOX DE INSTRUÇÕES DA AULA -->
+    <div class="instructions-box">
+        <strong>ATENÇÃO! Leia a seguir:</strong><br>
+        ➥ É terminantemente proibido pular qualquer parte do script.<br>
+        ➥ Os nicks dos alunos devem ser digitados separados por <strong>/</strong> (barra) para postagem no Instrubot.<br>
+        ➥ Clique em qualquer caixa de texto abaixo para copiar a frase automaticamente.
+    </div>
+
+    <!-- SCRIPT INTERATIVO -->
+    <section>
+        <div class="script-section-title">1. Recepção e Boas-Vindas</div>
         
-        { tipo: "instrucao", texto: "➥ Caso a aplicação esteja ocorrendo em um cubículo do Batalhão Auxiliar, ignore o passo do Bot e prossiga normalmente." },
-        
-        { tipo: "fala", texto: "Você sabe o que significa a sigla RCC? Responda usando negrito." },
-        
-        { tipo: "instrucao", texto: "➥ Aguarde o recruta responder. A resposta correta é: Revolução Contra o Crime." },
-        
-        { tipo: "fala", texto: "Exatamente! A Polícia RCC foi fundada por nabas201 em 2006." },
-        { tipo: "fala", texto: "Nossa missão é combater o crime, orientar os civis e trazer diversão aos nossos membros." },
-        
-        { tipo: "fala", texto: "[TESTE TEÓRICO] Agora, irei fazer algumas perguntas relacionadas à aula." },
-        { tipo: "fala", texto: "Caso erre duas questões, será reprovado(a). Vamos começar." },
-        
-        { tipo: "instrucao", texto: "➥ Faça as perguntas de praxe estipuladas no fórum para checar a absorção do recruta." },
-        
-        { tipo: "fala", texto: "Parabéns, recruta! Você acaba de ser aprovado e promovido a Soldado da Polícia RCC!" },
-        { tipo: "fala", texto: "Coloque em sua missão: [RCC] Soldado [Seu Nick] e altere o emblema para o de Soldado." }
-    ]
-};
+        <div class="frase">Olá, recruta. Eu sou o(a) instrutor(a) yycecedilha.</div>
+        <div class="frase">Seja bem-vindo(a) à RCC! Permaneça em silêncio e preste atenção ao conteúdo repassado na instrução.</div>
+        <div class="frase">Peço que, caso surja alguma dúvida no decorrer da aula, acene para que eu possa saná-la.</div>
+        <div class="frase">Se eu sair do jogo, aguarde-me 5 minutos; caso eu não retorne, volte para o batalhão.</div>
+        <div class="frase">Entendido, recruta?</div>
+
+        <div class="script-section-title">Comando Inicial do Bot</div>
+        <div class="frase comando-bot">AULAINS</div>
+
+        <div class="script-section-title">2. Teste Teórico</div>
+        <div class="frase">Agora, irei fazer algumas perguntas relacionadas à aula. Caso erre duas questões, será reprovado(a).</div>
+        <div class="frase">Vocês conseguem sussurrar comigo?</div>
+        <div class="frase">Todas as respostas deverão ser enviadas via sussurro, caso envie fora será considerado um erro.</div>
+
+        <div class="frase">1) Quais são os 3 requisitos necessários para o alistamento?</div>
+        <div class="resposta-text">R: Missão, grupo e farda.</div>
+
+        <div class="frase">2) Qual pronome deve ser utilizado ao se dirigir a SUPERIORES de patente/cargo?</div>
+        <div class="resposta-text">R: Senhor(a).</div>
+
+        <div class="frase">3) Como deve estar a missão de um recruta?</div>
+        <div class="resposta-text">R: Em branco/vazia.</div>
+
+        <div class="frase">4) Qual é a forma correta de assumir um superior na recepção?</div>
+        <div class="resposta-text">R: Estando a um quadrado de distância de sua cadeira e falando: "Assumo, senhor/senhora".</div>
+
+        <div class="script-section-title">3. Resultados do Teste</div>
+        <div class="frase">Lamento, você está reprovado(a). Mas não desista, retorne ao batalhão e aliste-se novamente.</div>
+        <div class="frase">Parabéns, você foi aprovado(a) no teste teórico!</div>
+        <div class="frase">Agora iremos entrar no próximo tópico da aula:</div>
+
+        <div class="script-section-title">Comando Prática / Retomada</div>
+        <div class="frase comando-bot">RETOMARAULA</div>
+
+        <div class="script-section-title">4. Prática de Comandos</div>
+        <div class="frase">Sentido!</div>
+        <div class="frase">Continência!</div>
+        <div class="frase">Apresentar-armas!</div>
+        <div class="frase">Marcar passos!</div>
+        <div class="frase">Silêncio!</div>
+        <div class="frase">À vontade!</div>
+
+        <div class="script-section-title">5. Finalização</div>
+        <div class="frase comando-bot">FINALIZARAULA</div>
+        <div class="frase">Coloque uma boina preta e escreva em sua missão: [RCC] Soldado [SUA TAG]</div>
+        <div class="frase">Aguarde, irei postar a instrução.</div>
+    </section>
+`;
