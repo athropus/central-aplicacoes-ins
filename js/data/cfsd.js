@@ -31,9 +31,26 @@ window.dadosScriptCFSd = `
         <div class="frase comando-bot">AULAINS</div>
 
         <div class="script-section-title-copiavel frase">   [Teste Teórico]</div>
+        <div class="script-section-title">➥ Caso o recruta atinja a quantidade de erros, deverá ser reprovado imediatamente. Caso tenha outros, aguarde o reprovado retirar-se para dar continuidade.</div>
+        
         <div class="frase">Agora, irei fazer algumas perguntas relacionadas à aula. Caso erre duas questões, será reprovado(a).</div>
         <div class="frase">Vocês conseguem sussurrar comigo?</div>
         <div class="frase">Todas as respostas deverão ser enviadas via sussurro, caso envie fora será considerado um erro.</div>
+
+        <div class="frase">Vocês conseguem sussurrar comigo?</div>
+
+        <!-- SPOILER / CAIXA EXPANSÍVEL -->
+        <details class="spoiler-box">
+            <summary>Caso haja mais de um recruta:</summary>
+            <div class="spoiler-conteudo">
+                <div class="frase">➥ Caso os recrutas não consigam sussurrar. Você está jogando pelo computador ou pela versão mobile?</div>
+                <div class="frase">➥ Caso o recruta seja mobile. Pressione o meu personagem, selecione a opção "sussurrar" e envie uma mensagem.</div>
+                <div class="frase">➥ Caso o recruta esteja no computador: versão clássica ou beta. Clique no meu personagem, selecione a opção "sussurrar" e envie uma mensagem.</div>
+                <div class="frase">Caso a opção 'Sussurrar' não esteja visível, clique sobre mim, digite 'Sussurrar' e aperte espaço.</div>
+            </div>
+        </details>
+
+        <div class="frase">➥ Caso os recrutas consigam sussurrar. Todas as respostas deverão ser enviadas via sussurro, caso envie fora será considerado um erro.</div>
 
         <div class="frase">1) Quais são os 3 requisitos necessários para o alistamento?</div>
         <div class="resposta-text">R: Missão, grupo e farda.</div>
@@ -47,9 +64,11 @@ window.dadosScriptCFSd = `
         <div class="frase">4) Qual é a forma correta de assumir um superior na recepção?</div>
         <div class="resposta-text">R: Estando a um quadrado de distância de sua cadeira e falando: "Assumo, senhor/senhora".</div>
 
-        <div class="script-section-title">3. Resultados do Teste</div>
+        <div class="script-section-title">➥AOS REPROVADOS NO TESTE TEÓRICO</div>
         <div class="script-section-reprovado">3. REPROVADO!</div>
         <div class="frase">Lamento, você está reprovado(a). Mas não desista, retorne ao batalhão e aliste-se novamente.</div>
+
+        <div class="script-section-title">➥AOS APROVADOS NO TESTE TEÓRICO</div>
         <div class="script-section-aprovado">APROVADO!</div>
         <div class="frase">Parabéns, você foi aprovado(a) no teste teórico!</div>
         <div class="frase">Agora iremos entrar no próximo tópico da aula:</div>
