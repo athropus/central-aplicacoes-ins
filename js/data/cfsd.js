@@ -14,7 +14,7 @@ window.dadosScriptCFSd = `
 
     <!-- SCRIPT INTERATIVO -->
     <section>
-        <div class="script-section-title">1. Recepção e Boas-Vindas</div>
+        <div class="script-section-title-copiavel frase">[INTRODUÇÃO]</div>
         
         <div class="frase">Olá, recruta. Eu sou o(a) instrutor(a) yycecedilha.</div>
         <div class="frase">Seja bem-vindo(a) à RCC! Permaneça em silêncio e preste atenção ao conteúdo repassado na instrução.</div>
@@ -26,7 +26,7 @@ window.dadosScriptCFSd = `
         <div class="script-section-title">➥ Agora, utilize o comando "AULAINS" para o bot iniciar o script.</div>
         <div class="script-section-title">➥ Caso seja necessário, utilize o comando "PAUSARAULA" / "RETOMARAULA" para pausar e retomar o script passado pelo bot, respectivamente.</div>
         <div class="script-section-title">➥ Caso o recruta tenha alguma dúvida diante o conteúdo passado pelo bot, retire-a antes de prosseguir com o teste teórico.</div>
-                
+
         <div class="script-section-title">Comando Inicial do Bot</div>
         <div class="frase comando-bot">AULAINS</div>
 
