@@ -21,7 +21,13 @@ window.dadosScriptCFSd = `
         <div class="frase">Peço que, caso surja alguma dúvida no decorrer da aula, acene para que eu possa saná-la.</div>
         <div class="frase">Se eu sair do jogo, aguarde-me 5 minutos; caso eu não retorne, volte para o batalhão.</div>
         <div class="frase">Entendido, recruta?</div>
-
+        
+        <div class="script-section-title">
+        ➥ Caso a aplicação esteja ocorrendo em um cubículo do Batalhão Auxiliar, desça até o fim da página e prossiga manualmente no "Script Completo".
+        ➥ Agora, utilize o comando "AULAINS" para o bot iniciar o script.
+        ➥ Caso seja necessário, utilize o comando "PAUSARAULA" / "RETOMARAULA" para pausar e retomar o script passado pelo bot, respectivamente.
+        ➥ Caso o recruta tenha alguma dúvida diante o conteúdo passado pelo bot, retire-a antes de prosseguir com o teste teórico.
+        </div>        
         <div class="script-section-title">Comando Inicial do Bot</div>
         <div class="frase comando-bot">AULAINS</div>
 
@@ -52,7 +58,8 @@ window.dadosScriptCFSd = `
         <div class="script-section-title">Comando Prática / Retomada</div>
         <div class="frase comando-bot">RETOMARAULA</div>
 
-        <div class="script-section-title">4. Prática de Comandos</div>
+        <div class="script-section-title">Prática de Comandos</div>
+
         <div class="frase">Sentido!</div>
         <div class="frase">Continência!</div>
         <div class="frase">Apresentar-armas!</div>
@@ -60,7 +67,8 @@ window.dadosScriptCFSd = `
         <div class="frase">Silêncio!</div>
         <div class="frase">À vontade!</div>
 
-        <div class="script-section-title">5. Finalização</div>
+        <div class="script-section-title">Finalização</div>
+
         <div class="frase comando-bot">FINALIZARAULA</div>
         <div class="frase">Coloque uma boina preta e escreva em sua missão: [RCC] Soldado [SUA TAG]</div>
         <div class="frase">Aguarde, irei postar a instrução.</div>
