@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById('script-container');
     if (container && typeof dadosScriptCFSd !== 'undefined') {
         container.innerHTML = dadosScriptCFSd;
+    } else {
+        console.error("Erro: container não encontrado ou dadosScriptCFSd não definido.");
     }
 
     // 2. Função para atualizar Data e Hora
@@ -19,20 +21,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     atualizarDataHora();
 
-    // 3. Sistema de Copiar ao Clicar (Event Delegation)
-    // Usamos event delegation no container para que funcione em scripts injetados dinamicamente
-    container.addEventListener('click', function(e) {
-        // Verifica se o elemento clicado tem a classe 'frase'
-        if (e.target && e.target.classList.contains('frase')) {
-            const texto = e.target.innerText;
+    // 3. Sistema de Copiar ao Clicar (Com verificação de segurança do container)
+    if (container) {
+        container.addEventListener('click', function(e) {
+            // Pega o elemento clicado ou o elemento pai mais próximo que contenha a classe 'frase'
+            const elementoFrase = e.target.closest('.frase');
             
-            navigator.clipboard.writeText(texto).then(() => {
-                // Adiciona a classe que deixa o botão verde permanentemente
-                e.target.classList.add('copied');
-            }).catch(err => {
-                console.error('Erro ao copiar o texto: ', err);
-            });
-        }
-    });
+            if (elementoFrase) {
+                const texto = elementoFrase.innerText;
+                
+                navigator.clipboard.writeText(texto).then(() => {
+                    // Adiciona a classe que deixa o item com destaque de copiado
+                    elementoFrase.classList.add('copied');
+                }).catch(err => {
+                    console.error('Erro ao copiar o texto: ', err);
+                });
+            }
+        });
+    }
 
 });
