@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[INS] Sistema de Instruções</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="toggle-device">
+            <button class="toggle-btn">MOB</button>
+            <button class="toggle-btn active">PC</button>
+        </div>
+
+        <div class="menu-section">
+            <div class="menu-category">Instrutor</div>
+            <button class="menu-item active">CFSd</button>
+            <button class="menu-item">CFC I</button>
+            <button class="menu-item">CFC II</button>
+
+            <div class="menu-category">Capacitador</div>
+            <button class="menu-item">CAP BÁSICA</button>
+            <button class="menu-item">CAP AVANÇADA</button>
+        </div>
+    </aside>
+
+    <!-- MAIN WRAPPER -->
+    <div class="main-wrapper">
+        
+        <!-- HEADER TOP -->
+        <header class="top-header">
+            <div class="header-title">
+                🛡️ <span>[INS]</span> Sistema de Instruções
+            </div>
+            <div class="user-pill">
+                <div class="user-avatar">👤</div>
+                <span>yycecedilha</span>
+            </div>
+        </header>
+
+        <!-- CONTENT AREA -->
+        <main class="content-area">
+            
+            <!-- CARD INICIAR AULA -->
+            <section class="card">
+                <div class="card-header-title">Iniciar Aula</div>
+                
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label>Nick do Instrutor</label>
+                        <input type="text" value="yycecedilha" id="nickInstrutor">
+                    </div>
+                    <div class="input-group">
+                        <label>Data e Hora</label>
+                        <input type="text" id="dataHora" readonly>
+                    </div>
+                    <div class="input-group">
+                        <label>Nick dos Alunos (separar por /)</label>
+                        <input type="text" placeholder="Ex: Nick1 / Nick2">
+                    </div>
+                </div>
+
+                <div class="selector-group">
+                    <button class="mode-btn active">CFSd com BOT</button>
+                    <button class="mode-btn">CFSd Script Completo</button>
+                </div>
+            </section>
+
+            <!-- CONTAINER ONDE O SCRIPT SERÁ INJETADO -->
+            <div id="script-container"></div>
+
+        </main>
+    </div>
+
+    <!-- Importação dos Dados e Lógica JS -->
+    <script src="js/data/cfsd.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
