@@ -30,7 +30,7 @@ window.dadosScriptCFSd = `
         ➥ Caso o recruta tenha alguma dúvida diante o conteúdo passado pelo bot, retire-a antes de prosseguir com o teste teórico.
     </div>
 
-        <div class="script-section-title">"AULAINS" para iniciar o script ⇩</div>
+        <div class="script-section-title">USE O COMANDO "AULAINS" PARA INICIAR O SCRIPT ⇩</div>
         <div class="frase">AULAINS</div>
         <br>
 
