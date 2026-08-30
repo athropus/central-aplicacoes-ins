@@ -9,12 +9,12 @@ window.dadosScriptCFSd = `
         <strong>ATENÇÃO! Leia a seguir:</strong><br>
       ➥ É terminantemente proibido pular qualquer parte do script, qualquer<br> transgressão no que se refere a qualidade da aula, ocasionará em<br> punições, listadas no [INS] Código Penal dos Instrutores.<br><br>
 
-     Legenda:>br>
+     Legenda:><br>
 
      Preto - Tudo que deve ser falado durante a aula.<br>
      Negrito - Tudo que deverá ser destacado com uma coloração de balão diferente.<br>
      Azul - Temas que serão abordados durante a aula.<br>
-     Azul claro - Orientações para o instrutor.<br>
+    <div class="script-section-title"> Amarelo - instruções que deverão ser seguidas pelo recruta.</div>
     </div>
 
     <!-- SCRIPT INTERATIVO -->
@@ -35,7 +35,7 @@ window.dadosScriptCFSd = `
         ➥ Caso o recruta tenha alguma dúvida diante o conteúdo passado pelo bot, retire-a antes de prosseguir com o teste teórico.
     </div>
 
-        <div class="script-section-title">Use o comando "AULAINS" PARA INICIAR O SCRIPT ⇩</div>
+        <div class="script-section-title">Use o comando "AULAINS" para iniciar o script ⇩</div>
         <div class="frase">AULAINS</div>
         <br>
 
