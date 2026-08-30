@@ -7,9 +7,14 @@ window.dadosScriptCFSd = `
     <!-- BOX DE INSTRUÇÕES DA AULA -->
     <div class="instructions-box">
         <strong>ATENÇÃO! Leia a seguir:</strong><br>
-        ➥ É terminantemente proibido pular qualquer parte do script.<br>
-        ➥ Os nicks dos alunos devem ser digitados separados por <strong>/</strong> (barra) para postagem no Instrubot.<br>
-        ➥ Clique em qualquer caixa de texto abaixo para copiar a frase automaticamente.
+      ➥ É terminantemente proibido pular qualquer parte do script, qualquer<br> transgressão no que se refere a qualidade da aula, ocasionará em<br> punições, listadas no [INS] Código Penal dos Instrutores.<br><br>
+
+     Legenda:>br>
+
+     Preto - Tudo que deve ser falado durante a aula.<br>
+     Negrito - Tudo que deverá ser destacado com uma coloração de balão diferente.<br>
+     Azul - Temas que serão abordados durante a aula.<br>
+     Azul claro - Orientações para o instrutor.<br>
     </div>
 
     <!-- SCRIPT INTERATIVO -->
