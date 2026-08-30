@@ -264,7 +264,7 @@ body {
 .instructions-box strong { color: var(--text-main); }
 
 .script-section-title {
-    color: var(--accent-cyan);
+    color: #ffe066; /* Amarelo claro e suave */
     font-size: 1.1rem;
     margin-top: 15px;
     margin-bottom: 10px;

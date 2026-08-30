@@ -24,13 +24,13 @@ window.dadosScriptCFSd = `
         <br>
 
     <div class="instructions-box">
-        <strong>ATENÇÃO!</strong><br>
+        <strong>USE O BOT</strong><br>
         ➥ Agora, utilize o comando "AULAINS" para o bot iniciar o script.<br>
         ➥ Caso seja necessário, utilize o comando "PAUSARAULA" / "RETOMARAULA" para pausar e retomar o script passado pelo bot, respectivamente.<br>
         ➥ Caso o recruta tenha alguma dúvida diante o conteúdo passado pelo bot, retire-a antes de prosseguir com o teste teórico.
     </div>
 
-        <div class="script-section-title">Comando Inicial do Bot</div>
+        <div class="script-section-title">Utilize o comando "AULAINS" para iniciar o script ⇩</div>
         <div class="frase comando-bot">AULAINS</div>
 
         <div class="script-section-title-copiavel frase">   [Teste Teórico]</div>
