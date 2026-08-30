@@ -22,10 +22,12 @@ window.dadosScriptCFSd = `
         <div class="frase">Se eu sair do jogo, aguarde-me 5 minutos; caso eu não retorne, volte para o batalhão.</div>
         <div class="frase">Entendido, recruta?</div>
 
-        <div class="script-section-title">➥ Caso a aplicação esteja ocorrendo em um cubículo do Batalhão Auxiliar, desça até o fim da página e prossiga manualmente no "Script Completo".</div>
-        <div class="script-section-title">➥ Agora, utilize o comando "AULAINS" para o bot iniciar o script.</div>
-        <div class="script-section-title">➥ Caso seja necessário, utilize o comando "PAUSARAULA" / "RETOMARAULA" para pausar e retomar o script passado pelo bot, respectivamente.</div>
-        <div class="script-section-title">➥ Caso o recruta tenha alguma dúvida diante o conteúdo passado pelo bot, retire-a antes de prosseguir com o teste teórico.</div>
+    <div class="instructions-box">
+        <strong>ATENÇÃO!</strong><br>
+        ➥ Agora, utilize o comando "AULAINS" para o bot iniciar o script.<br>
+        ➥ Caso seja necessário, utilize o comando "PAUSARAULA" / "RETOMARAULA" para pausar e retomar o script passado pelo bot, respectivamente.<br>
+        ➥ Caso o recruta tenha alguma dúvida diante o conteúdo passado pelo bot, retire-a antes de prosseguir com o teste teórico.
+    </div>
 
         <div class="script-section-title">Comando Inicial do Bot</div>
         <div class="frase comando-bot">AULAINS</div>
@@ -37,20 +39,6 @@ window.dadosScriptCFSd = `
         <div class="frase">Vocês conseguem sussurrar comigo?</div>
         <div class="frase">Todas as respostas deverão ser enviadas via sussurro, caso envie fora será considerado um erro.</div>
 
-        <div class="frase">Vocês conseguem sussurrar comigo?</div>
-
-        <!-- SPOILER / CAIXA EXPANSÍVEL -->
-        <details class="spoiler-box">
-            <summary>Caso haja mais de um recruta:</summary>
-            <div class="spoiler-conteudo">
-                <div class="frase">➥ Caso os recrutas não consigam sussurrar. Você está jogando pelo computador ou pela versão mobile?</div>
-                <div class="frase">➥ Caso o recruta seja mobile. Pressione o meu personagem, selecione a opção "sussurrar" e envie uma mensagem.</div>
-                <div class="frase">➥ Caso o recruta esteja no computador: versão clássica ou beta. Clique no meu personagem, selecione a opção "sussurrar" e envie uma mensagem.</div>
-                <div class="frase">Caso a opção 'Sussurrar' não esteja visível, clique sobre mim, digite 'Sussurrar' e aperte espaço.</div>
-            </div>
-        </details>
-
-        <div class="frase">➥ Caso os recrutas consigam sussurrar. Todas as respostas deverão ser enviadas via sussurro, caso envie fora será considerado um erro.</div>
 
         <div class="frase">1) Quais são os 3 requisitos necessários para o alistamento?</div>
         <div class="resposta-text">R: Missão, grupo e farda.</div>
