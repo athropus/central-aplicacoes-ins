@@ -297,6 +297,13 @@ body {
     color: #ffffff !important;
 }
 
+.comando-bot {
+    background-color: var(--bg-input);
+    border: 1px solid var(--accent-blue);
+    color: var(--accent-cyan);
+    font-weight: 700;
+    text-align: center;
+}
 
 .resposta-text {
     color: var(--accent-cyan);
