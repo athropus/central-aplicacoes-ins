@@ -15,7 +15,7 @@ window.dadosScriptCFSd = `
      Negrito - Tudo que deverá ser destacado com uma coloração de balão diferente.<br>
      Azul - Temas que serão abordados durante a aula.<br>
     <div class="script-section-title">Amarelo</div> instruções que deverão ser seguidas pelo instrutor.
-    </div>
+ </div>
 
     <!-- SCRIPT INTERATIVO -->
     <section>
