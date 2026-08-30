@@ -14,7 +14,7 @@ window.dadosScriptCFSd = `
      Preto - Tudo que deve ser falado durante a aula.<br>
      Negrito - Tudo que deverá ser destacado com uma coloração de balão diferente.<br>
      Azul - Temas que serão abordados durante a aula.<br>
-    <div class="script-section-title"> Amarelo - instruções que deverão ser seguidas pelo recruta.</div>
+    <div class="script-section-title">Amarelo</div> instruções que deverão ser seguidas pelo instrutor.
     </div>
 
     <!-- SCRIPT INTERATIVO -->
