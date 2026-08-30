@@ -21,6 +21,7 @@ window.dadosScriptCFSd = `
         <div class="frase">Peço que, caso surja alguma dúvida no decorrer da aula, acene para que eu possa saná-la.</div>
         <div class="frase">Se eu sair do jogo, aguarde-me 5 minutos; caso eu não retorne, volte para o batalhão.</div>
         <div class="frase">Entendido, recruta?</div>
+        <br>
 
     <div class="instructions-box">
         <strong>ATENÇÃO!</strong><br>
