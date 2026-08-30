@@ -5,7 +5,7 @@ window.dadosScriptCFSd = `
     </div>
 
     <!-- BOX DE INSTRUÇÕES DA AULA -->
-    <div class="instructions-box">
+ <div class="instructions-box">
         <strong>ATENÇÃO! Leia a seguir:</strong><br>
       ➥ É terminantemente proibido pular qualquer parte do script, qualquer<br> transgressão no que se refere a qualidade da aula, ocasionará em<br> punições, listadas no [INS] Código Penal dos Instrutores.<br><br>
 
