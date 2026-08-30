@@ -31,7 +31,8 @@ window.dadosScriptCFSd = `
     </div>
 
         <div class="script-section-title"AULAINS" para iniciar o script ⇩</div>
-        <div class="frase">AULAINS</div><br>
+        <div class="frase">AULAINS</div>
+        <br>
 
         <div class="script-section-title-copiavel frase">   [Teste Teórico]</div>
         <div class="script-section-title">➥ Caso o recruta atinja a quantidade de erros, deverá ser reprovado imediatamente. Caso tenha outros, aguarde o reprovado retirar-se para dar continuidade.</div>
