@@ -14,7 +14,7 @@ window.dadosScriptCFSd = `
 
     <!-- SCRIPT INTERATIVO -->
     <section>
-        <div class="script-section-title-copiavel frase">   [INTRODUÇÃO]</div>
+        <div class="frase"><strong>[INTRODUÇÃO]</strong></div>
         
         <div class="frase">Olá, recruta. Eu sou o(a) instrutor(a) yycecedilha.</div>
         <div class="frase">Seja bem-vindo(a) à RCC! Permaneça em silêncio e preste atenção ao conteúdo repassado na instrução.</div>
@@ -30,7 +30,7 @@ window.dadosScriptCFSd = `
         ➥ Caso o recruta tenha alguma dúvida diante o conteúdo passado pelo bot, retire-a antes de prosseguir com o teste teórico.
     </div>
 
-        <div class="script-section-title">USE O COMANDO "AULAINS" PARA INICIAR O SCRIPT ⇩</div>
+        <div class="script-section-title">Use o comando "AULAINS" PARA INICIAR O SCRIPT ⇩</div>
         <div class="frase">AULAINS</div>
         <br>
 
